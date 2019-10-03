@@ -1,0 +1,77 @@
+@font-face
+{
+font-family: fingerspelling;
+src: url('Fingerspelling.ttf');
+}
+
+html {
+  position: relative;
+  min-height: 99%;
+}
+
+.backgroundLayout {
+  background: #007bff;    
+  width:100%; 
+  height:100%; 
+  z-index:-10;
+  top:0; 
+  left:0; 
+  position:fixed; 
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  line-height: 40px;
+  /* Vertically center the text there */
+}
+
+#hackbit-vote-widget
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+  
+}
+
+body
+{
+  margin-bottom: 60px;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.centered {
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  font-size: 3em;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.noHover{
+  pointer-events: none;
+}
+
+#textareaInput:focus {
+  border-color: #007bff;
+  box-shadow: inset 0 1px 1px rgba(13, 75, 146, 0.075), 0 0 8px rgba(3, 121, 231, 0.6);
+}
